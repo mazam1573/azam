@@ -78,12 +78,16 @@ header h1 {
   line-height: 3.2em;
 }
 
-.contact-list span {
+.contact-list li img {
+  margin-right: 15px;
+}
+
+.contact-list a {
   display: block;
   margin: 0;
   padding: 0;
   line-height: 0.1em;
-  margin-left: 37px;
+  margin-left: 45px;
   font-size: 15px;
   color: #ccc;
 }
@@ -103,6 +107,15 @@ header h1 {
 .media {
   background: #ededed;
   padding: 0 10px 0 0;
+}
+
+.media-left {
+  text-align: center;
+  margin-left: 10px;
+}
+
+.media-body {
+  margin-left: 15px;
 }
 
 .progress {
